@@ -1,0 +1,17 @@
+{
+	"general": {
+		"initialSpawnDimension": 24
+	},
+	"rules": [
+		{
+			"appliesTo": [
+				24
+			],
+			"spawnPoint": {
+				"posX": -8830,
+				"posY": 63,
+				"posZ": -4890
+			}
+		}
+	]
+}
