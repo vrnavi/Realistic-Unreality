@@ -1,0 +1,133 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:mainmenu/minecraft.png",
+            "posX" : -200,
+            "posY" : 30,
+            "width" : 400,
+            "height" : 60,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 144,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+	
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "(c) Mojang AB",
+            "hoverText" : "§n(c) Mojang AB",
+            "posX" : -74,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+		"version":
+        {
+            "text" : "Realistic Unreality 1.0.0\n(c) wistlyr#6900",
+            "hoverText" : "§nRealistic Unreality 1.0.0\n(c) wistlyr#6900",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/oneshot"
+            }
+        }
+    },
+    
+    "other":
+    {        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["modpack:mainmenu/bg1.png","modpack:mainmenu/bg2.png"],
+                "displayDuration" : 0,
+                "fadeDuration" : 200
+            }
+        }
+    }
+}
