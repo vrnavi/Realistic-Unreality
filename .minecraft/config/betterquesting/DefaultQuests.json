@@ -1,0 +1,1819 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Welcome",
+          "desc:8": "§lWelcome to Realistic Unreality!§r\n\nThis is a Kitchen Sink-esque style modpack, with an emphasis on realism without the realism.\n\n§lThe Lore:§r\n\nYou spent all night trying to put together a crappy modpack to no avail. Right as your patience is dwindling, you find a mod on 4chan that\u0027s supposed to fix an error. You add it, and try to load the modpack. Since it takes forever to load, you end up taking a nap...\n\nWhen you awake, your house is gone. You\u0027re lying on gravel. The world around you is definitely still Earth, but much smaller, and a lot more cubic.\n\nYou come to the conclusion that Earth is now in Minecraft, and you are too. You\u0027re no stranger to the game, so you know the drill.\n\n§lThe Credits:§r\n\nThis modpack was made for the OneShot Discord. You may still use this modpack for your own purposes.\n\nOfficial downloads are on GitHub:\nhttps://github.com/wistlyr/Realistic-Unreality\n\nFor support, please see the #realisticunreality channel on our Discord:\nhttps://discord.gg/oneshot"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Getting Started",
+          "desc:8": "It seems not only did Earth enter Minecraft, but various mods have joined the party too. Your standard tools definitely won\u0027t cut it. Better get looking into alternatives, namely, Tinker\u0027s Construct."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:planks",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:log",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "tconstruct:pattern",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "itemFlint"
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Flint, MI",
+          "desc:8": "Why get wooden tools when you can get fancy flint tools? Flint will be your best friend for Tinker\u0027s Construct early game. Get some flint, and make some tool parts at a part builder. Assemble your new fancy tool at a tool station."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:pick_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "flint"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:binding",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "wood"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tool_rod",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "wood"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:cobblestone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Refresh",
+          "desc:8": "Sometimes you will have to refresh the quests."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Run a command script",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/bq_user refresh"
+        }
+      }
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        1,
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:porkchop",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Food",
+          "desc:8": "In order to survive, you will need to get some proper food. Kill these animals."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.scales"
+              },
+              "3:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "5:10": {
+                "Base:6": 0.20000000298023224,
+                "Name:8": "generic.movementSpeed"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "8:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "9:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "thebetweenlands:entity_gems:10": {
+                "gems:9": {}
+              },
+              "thebetweenlands:custom_step_sound:10": {},
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "thebetweenlands:puppet:10": {
+                "ticks:3": 0,
+                "guard:1": 0,
+                "recruitmentCost:3": 0,
+                "stay:1": 0
+              },
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "thebetweenlands:equipment:10": {
+                "amuletSlots:3": 1
+              },
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:cow",
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8614885353488701601,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 24,
+            "Rotation:9": {
+              "0:5": 5.3218265,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 6451081619289688592,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:cow",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.scales"
+              },
+              "3:10": {
+                "Base:6": 10.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "5:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "8:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "9:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "Saddle:1": 0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "thebetweenlands:entity_gems:10": {
+                "gems:9": {}
+              },
+              "thebetweenlands:custom_step_sound:10": {},
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "thebetweenlands:puppet:10": {
+                "ticks:3": 0,
+                "guard:1": 0,
+                "recruitmentCost:3": 0,
+                "stay:1": 0
+              },
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "thebetweenlands:equipment:10": {
+                "amuletSlots:3": 1
+              },
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:pig",
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6993139424835398814,
+            "Health:5": 10.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 24,
+            "Rotation:9": {
+              "0:5": 4.8945513,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 690088556072618928,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:pig",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.scales"
+              },
+              "3:10": {
+                "Base:6": 8.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "5:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "8:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "9:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "ForcedAge:3": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "InLove:3": 0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "thebetweenlands:entity_gems:10": {
+                "gems:9": {}
+              },
+              "thebetweenlands:custom_step_sound:10": {},
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Chicken Property Tracker:10": {
+                  "TimeUntilNextEgg:3": 1
+                },
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "thebetweenlands:puppet:10": {
+                "ticks:3": 0,
+                "guard:1": 0,
+                "recruitmentCost:3": 0,
+                "stay:1": 0
+              },
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "thebetweenlands:equipment:10": {
+                "amuletSlots:3": 1
+              },
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:sheep",
+            "Age:3": 1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7700173429511259428,
+            "Health:5": 8.0,
+            "Color:1": 0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 24,
+            "Rotation:9": {
+              "0:5": 6.1538286,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -1929834200606355592,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "Sheared:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:sheep",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bed",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Sleep",
+          "desc:8": "Make a bed, to sleep away the night."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:bed",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:wooden_door",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Crack Shack",
+          "desc:8": "You\u0027re gonna need a place to hide from the nonexistent cops, and the monsters at night. You\u0027ve played Minecraft before, you know what you need, get to it already, daylight\u0027s ticking away."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "logWood"
+            },
+            "1:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "torch"
+            },
+            "2:10": {
+              "id:8": "minecraft:wooden_door",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "doorWood"
+            },
+            "3:10": {
+              "id:8": "minecraft:bed",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "bed"
+            },
+            "4:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:soil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Agrout to make a Smeltery",
+          "desc:8": "I hate the title too. Craft some Grout, about two stacks should be good."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:soil",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Furnace",
+          "desc:8": "Obtain cobblestone and make a furnace."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:furnace",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:smeltery_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "RIP Sears",
+          "desc:8": "Hit that upgrade button on your poorly named item to upgrade it to actually usable bricks!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:seared",
+              "Count:3": 32,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:smeltery_io",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Rest of the Damn Owl",
+          "desc:8": "Get the rest of the parts needed to create a smeltery with those Seared Bricks. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:smeltery_controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:smeltery_io",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:seared_tank",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:faucet",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "tconstruct:casting",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "tconstruct:casting",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "minecraft:lava_bucket",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "\"how do you hold the bucket??? wouldn\u0027t the iron be like super hot???\"",
+          "desc:8": "Fill your new smeltery with lava to smelt things."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:lava_bucket",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        11
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:casting",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Dat Brass Doe",
+          "desc:8": "To actually make tools with your smeltery, you\u0027ll need to drain your molten metals onto a cast. You can make casts by combining (or \"alloying\") aluminum and copper together inside the smeltery. Placing a stone part on a casting basin and pouring out aluminum brass will make a cast for that part."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:cast",
+              "Count:3": 1,
+              "tag:10": {
+                "PartType:8": "tconstruct:pick_head"
+              },
+              "Damage:2": 0,
+              "OreDict:8": "cast"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:stone_brick_stairs",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "\u003d\u003d\u003d Secrets of the Invaders \u003d\u003d\u003d",
+          "desc:8": "You\u0027re surviving fairly well. You\u0027ve even picked up on some other things going on, but at this point you want answers. You\u0027ve probably been seeing these giant towers littering the place you\u0027ve called home. They started to show up when this whole mess started, so what better place to look? Take down one, and perhaps you\u0027ll learn what to do next."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": -2.0,
+                "Name:8": "tc.mobmod"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "tc.mobmodtaint"
+              },
+              "2:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.scales"
+              },
+              "3:10": {
+                "Base:6": 300.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "5:10": {
+                "Base:6": 0.3,
+                "Name:8": "generic.movementSpeed"
+              },
+              "6:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "7:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "8:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "9:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "10:10": {
+                "Base:6": 7.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "isDormant:1": 1,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "thebetweenlands:entity_gems:10": {
+                "gems:9": {}
+              },
+              "thebetweenlands:custom_step_sound:10": {},
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "champions:championship:10": {},
+              "thebetweenlands:puppet:10": {
+                "ticks:3": 0,
+                "guard:1": 0,
+                "recruitmentCost:3": 0,
+                "stay:1": 0
+              },
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "thebetweenlands:equipment:10": {
+                "amuletSlots:3": 1
+              },
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "battletowers:golem",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7250767189059241914,
+            "Health:5": 300.0,
+            "hasexplosionAttacked:1": 0,
+            "LeftHanded:1": 0,
+            "towerX:3": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 24,
+            "Rotation:9": {
+              "0:5": 0.0,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -2712134063210739681,
+            "towerZ:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "rageCounter:1": 0,
+            "towerY:3": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Drops:1": 1,
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "battletowers:golem",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        13
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "overworldmirror:portal",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Back to the Game",
+          "desc:8": "Fighting that Golem was a huge nightmare, but it was well worth it. Just before the tower collapsed, you found some valuable information. As you suspected, the world of Minecraft proper has leaked onto planet Earth and messed with the natural order. Even if it\u0027s irreversible, at least you can now do what you want. Where even is everyone else, anyway?\n\nYou now know how to get to the overworld of Minecraft. To do so, you\u0027ll need to construct a portal. The following note may help you:\n\n\"Create an end portal made out of stone bricks on the ground. Place poppies inside, and sneakily use bone meal on one of the poppies. If you do it right, everything will work.\""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stonebrick",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:red_flower",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -84,
+          "id:3": 0,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -36,
+          "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 12,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 12,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 12,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 12,
+          "id:3": 9,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 12,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -36,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -84,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -84,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -36,
+          "id:3": 15,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "The Beginning",
+          "icon:10": {
+            "id:8": "biomesoplenty:earth",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "There is no lore."
+        }
+      },
+      "order:3": 0
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "Realistic Unreality",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "home_image:8": "modpack:quests/ts.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}
