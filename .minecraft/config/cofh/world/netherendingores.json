@@ -2,6 +2,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"end-iridium": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -31,6 +32,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-platinum": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -60,6 +62,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-emerald": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -89,6 +92,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-diamond": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -118,6 +122,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-lapis": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -147,6 +152,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-gold": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -176,6 +182,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-redstone": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -205,6 +212,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-iron": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -234,6 +242,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-coal": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -263,6 +272,7 @@
 	"dependencies": "netherendingores",
 	"populate": {
 		"nether-uranium": {
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
