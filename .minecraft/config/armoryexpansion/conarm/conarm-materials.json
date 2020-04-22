@@ -266,13 +266,13 @@
   {
     "coreMaterialStats": {
       "durability": 18.0,
-      "defense": 24.75,
+      "defense": 20.0,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 16.8,
-      "modifier": 24.75,
-      "toughness": 0.0,
+      "modifier": 1.0,
+      "toughness": 1.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
@@ -1432,13 +1432,13 @@
   {
     "coreMaterialStats": {
       "durability": 18.0,
-      "defense": 24.75,
+      "defense": 20.0,
       "materialType": "core"
     },
     "platesMaterialStats": {
       "durability": 16.8,
-      "modifier": 24.75,
-      "toughness": 0.0,
+      "modifier": 1.0,
+      "toughness": 1.0,
       "materialType": "plates"
     },
     "trimMaterialStats": {
