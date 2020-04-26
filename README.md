@@ -5,7 +5,7 @@
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.0-yellow.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
 Put together by The OneShot Discord. Why? Suffering.
 
@@ -13,7 +13,7 @@ https://discord.gg/oneshot
 
 ---
 
-This modpack is shipped WITHOUT the Earth world. In order to play this modpack in Singleplayer, you will have to generate one yourself.
+This modpack is shipped WITHOUT the Earth world, as it's roughly 15 GB in size. In order to play this modpack in Singleplayer, you will have to generate one yourself.
 
 **Here's a quick guide to create a world for this modpack.**
 1. Visit [this website](https://earth.motfe.net/), and click on Downloads.
