@@ -34,7 +34,7 @@ This modpack is shipped WITHOUT the Earth world, as it's roughly 15 GB in size. 
 
 1) Navigate to your config folder in your multimc instance. Search for overworldmirror.cfg. Open it. Scroll down until you find the line mentioning a void world. Change true to false. This makes the world not void.
 
-2) Use /dimensiontp and click on teh overworld. Press launch. You are now in the overworld.
+2) Use /dimensiontp and click on the overworld. Press launch. You are now in the overworld.
 
 *Note that these methods may change the experience. I would recommend using method 1.*
 
