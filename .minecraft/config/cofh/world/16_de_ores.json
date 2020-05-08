@@ -1,0 +1,25 @@
+{
+	"dependencies": "draconicevolution",
+	"populate": 
+		{
+		"draconium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "draconicevolution:draconium_ore",
+				"material": "galaxyspace:barnarda_c_blocks",
+				"cluster-size": 7
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1030
+				]
+			}
+		}
+	}
+}
