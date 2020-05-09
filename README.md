@@ -39,6 +39,7 @@ This modpack is shipped WITHOUT the Earth world, as it's roughly 15 GB in size. 
 *Note that these methods may change the experience. I would recommend using method 1.*
 
 **Frequently asked questions**
+
 Why is the world void? - It's to stop people from going outside the earth map and finding stuff they shouldn't.
 
 How do I make an overworld portal? - Questbook.
