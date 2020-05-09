@@ -27,3 +27,10 @@ This modpack is shipped WITHOUT the Earth world, as it's roughly 15 GB in size. 
 7. Create a new folder, name it whatever you want, and place the DIM24 world inside.
 8. Launch the modpack, and create a new world with the same name as the folder you created earlier.
 9. Your world is ready to play on.
+
+**If you want to play the pack without using earth, there are two ways. You can either:**
+1. Edit the config file
+Navigate to your config folder in your multimc instance. Search for overworldmirror.cfg. Open it. Scroll down until you find the line   mentioning a void world. Change true to false. This makes the world not void.
+2. Use commands (Not reccomended)
+Use /dimensiontp and click on the overworld. Press launch. You are now in the overworld.
+
