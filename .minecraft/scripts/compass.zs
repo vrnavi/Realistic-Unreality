@@ -1,0 +1,1 @@
+recipes.addShaped(<galacticraftcore:dungeonfinder>, [[<thermalfoundation:material:128>, <minecraft:iron_ingot>, <thermalfoundation:material:128>], [<minecraft:iron_ingot>, <galaxyspace:gs_basic:5>, <minecraft:iron_ingot>], [<thermalfoundation:material:128>, <minecraft:iron_ingot>, <thermalfoundation:material:128>]]);
