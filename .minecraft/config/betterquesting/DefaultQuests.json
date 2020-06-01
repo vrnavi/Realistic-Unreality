@@ -309,7 +309,6 @@
     "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
-        24,
         7
       ],
       "properties:10": {
@@ -1367,7 +1366,9 @@
     },
     "24:10": {
       "questID:3": 24,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
