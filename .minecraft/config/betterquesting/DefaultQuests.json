@@ -815,7 +815,7 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "overworldmirror:portal",
+            "id:8": "simplevoidworld:portal",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -827,7 +827,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Einstein-Rosen Bridging",
-          "desc:8": "Now that you have succesfully evicted the unwanted residents of the tower, you\u0027ve managed to get your hands on some information on the current state of the earth. Some higher power has severed this realm from your true reality, a fragment of it\u0027s former self. Because of this, it has been cut off from all other realms but the one known as \"The Overworld\". From there, you will be able to access the rest of the maniverse. It\u0027s quite a coincidence that the multiverse theory was proven months before this catastrophe occurred.\n\nThe portal to the Overworld is quite simple, yet obscure. Place 12 stone bricks in the shape of an end portal, and fill the center of it with poppies. Bend over one of the poppies, and feed it a little bit of bonemeal to power up the portal."
+          "desc:8": "Now that you have succesfully evicted the unwanted residents of the tower, you\u0027ve managed to get your hands on some information on the current state of the earth. Some higher power has severed this realm from your true reality, a fragment of it\u0027s former self. Because of this, it has been cut off from all other realms but the one known as \"The Overworld\". From there, you will be able to access the rest of the maniverse. It\u0027s quite a coincidence that the multiverse theory was proven months before this catastrophe occurred.\n\nThe portal to the Overworld is quite expensive. You will need §54 eyes of the endermen§f, §d§c§a4 peices of the black stone§f, and §91 block of the treasured gem§f. Combine these all together and §eobtain a portal out of this plane§f."
         }
       },
       "tasks:9": {
@@ -840,21 +840,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stonebrick",
-              "Count:3": 12,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:red_flower",
-              "Count:3": 9,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "minecraft:dye",
+              "id:8": "simplevoidworld:portal",
               "Count:3": 1,
-              "Damage:2": 15,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -3747,7 +3735,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "overworldmirror:portal",
+              "id:8": "simplevoidworld:portal",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -14016,7 +14004,7 @@
           "index:3": 1,
           "choices:9": {
             "0:10": {
-              "id:8": "overworldmirror:portal",
+              "id:8": "simplevoidworld:portal",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
