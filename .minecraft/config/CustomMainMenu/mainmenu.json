@@ -90,7 +90,7 @@
         "mojang":
         {
             "text" : "(c) Mojang AB",
-            "hoverText" : "§n(c) Mojang AB",
+            "hoverText" : "(c) Mojang AB",
             "posX" : -74,
             "posY" : -10,
             "color" : -1,
@@ -103,10 +103,10 @@
         },
 		"version":
         {
-            "text" : "Realistic Unreality 1.0.1\n(c) wistlyr#6900",
-            "hoverText" : "§nRealistic Unreality 1.0.1\n(c) wistlyr#6900",
+            "text" : "Realistic Unreality 1.0.1",
+            "hoverText" : "Join us on Discord!",
             "posX" : 2,
-            "posY" : -20,
+            "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left",
             "action" : 
