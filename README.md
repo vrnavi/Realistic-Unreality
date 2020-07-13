@@ -5,7 +5,7 @@
 
 ---
 
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Version](https://img.shields.io/badge/version-1.0.1-green.svg)
 
 Put together by The OneShot Discord. Why? Suffering.
 
