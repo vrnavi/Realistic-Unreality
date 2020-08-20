@@ -1,0 +1,36 @@
+{
+  "uid": "vivecraft",
+  "releaseTime": "1979-06-01T00:00:00-05:00",
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "libraries": [
+    {
+      "name": "com.mtbs3d:minecrift:1.12.2-jrbudda-NONVR-11-r1",
+      "MMC-hint": "local"
+    },
+    {
+      "name": "org.json:json:20140107",
+      "url": "http://vivecraft.org/jar/"
+    },
+    {
+      "name": "org.ow2.asm:asm-all:5.2",
+      "url": "http://files.minecraftforge.net/maven/"
+    },
+    {"name": "net.minecraft:launchwrapper:1.12"},
+    {
+      "name": "optifine:OptiFine:1.12.2_HD_U_F5_LIB",
+      "MMC-hint": "local"
+    },
+    {
+      "name": "de.fruitfly.ovr:JRift:0.8.0.0.1",
+      "url": "http://vivecraft.org/jar/"
+    }
+  ],
+  "name": "Vivecraft",
+  "+tweakers": [
+    "org.vivecraft.tweaker.MinecriftForgeTweaker",
+    "net.minecraftforge.fml.common.launcher.FMLTweaker",
+    "optifine.OptiFineForgeTweaker"
+  ],
+  "time": "1979-06-01T00:00:00-05:00",
+  "version": "4"
+}
